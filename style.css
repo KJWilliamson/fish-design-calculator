@@ -1,0 +1,99 @@
+/* 
+dark mode
+
+:root {
+    color-scheme: dark;
+} */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-image: url("fish.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: calc(100vh - 3rem);
+}
+
+.wrapper {
+    margin: auto;
+    margin-top: 20px;
+    width: 400px;
+/*     border: 2px solid black; */
+    background-color: rgb(0,90,130);
+    color: white;
+}
+
+/* you can tell the buttons are inline because they're as wide as their content & right next to each other */
+/* use flexbox to lay out these buttons*/
+
+/* parent are calc-button-row
+child is buttons*/
+
+
+.calc-button-row {
+    border: none;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin-bottom: 0.5%;
+}
+
+.screen {
+    background-color: rgb(0,90,130);
+    text-align: right;
+    font-family: "Courier New", Courier, monospace;
+/*     20px is top & bottom 5 px is left & right */
+    padding: 20px 5px;
+    font-size: 40px;
+}
+
+.calc-button {
+    background-color: rgb(216,217,219);
+    color: rgb(0,170,150);
+    font-size: 40px;
+    border: none;
+    height: 100px;
+    flex-basis: 24.5%;
+}
+
+.calc-button:hover {
+    background-color: rgb(240, 241, 245);
+}
+
+/* active state is after you click but before the page has loaded */
+/* .calc-button:active {
+    background-color: #bbbcbe;
+} */
+
+
+/* or could do .calc-button:last-child because they're all the last one in each column */
+.special {
+    background-color: rgb(221,216,96);
+    color: white;
+    border: none;
+}
+
+.special:hover {
+    background-color: rgb(226, 223, 136);
+    color: white;
+    border: none;
+}
+
+.double {
+    flex-basis:49.7%;
+    border: none;
+}
+
+.triple {
+    flex-basis: 74.8%;
+    border: none;
+}
+
+
