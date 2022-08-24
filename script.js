@@ -67,9 +67,11 @@ function handleSymbol(symbol) {
                 buffer = buffer.substring(0, buffer.length - 1);
                 break;
             }
+        case '.':
+            //add decimal functionality
         case '+':
         case '-':
-        case '×':
+        case 'x':
         case '÷':
             handleMath(symbol);
             break;
