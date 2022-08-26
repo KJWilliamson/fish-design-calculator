@@ -1,4 +1,7 @@
 # fish-design-calculator
 
+# add decimal functionality and finish total amount so it shows where you're at instead of 0 before it totals all the numbers
 
-![fish-calc](https://user-images.githubusercontent.com/24884380/186076988-7ff901e6-bbd0-4394-b676-fdbfb3820227.jpg)
+
+
+![fish](https://user-images.githubusercontent.com/24884380/186921448-88eff0ca-8261-4e79-bbc4-dc7bbfda785d.jpg)
