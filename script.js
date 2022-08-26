@@ -71,7 +71,7 @@ function handleSymbol(symbol) {
             //add decimal functionality
         case '+':
         case '-':
-        case 'x':
+        case '×':
         case '÷':
             handleMath(symbol);
             break;
