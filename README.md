@@ -1,6 +1,6 @@
 # fish-design-calculator
 
-# fix multiplication, add decimal functionality, and finish total amount so it shows where you're at instead of 0 before it totals all the numbers
+# fix subtraction, add decimal functionality, and finish total amount so it shows where you're at instead of 0 before it totals all the numbers
 
 
 
