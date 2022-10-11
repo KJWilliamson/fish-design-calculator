@@ -1,4 +1,5 @@
-# fish-design-calculator
+# Basic calculator built with HTML, CSS, and Javascript
+* fish design background
 
 add decimal functionality, and finish total amount so it shows where you're at instead of 0 before it totals all the numbers
 
